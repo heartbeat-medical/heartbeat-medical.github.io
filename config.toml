@@ -10,7 +10,7 @@ disableSitemap = false
 disable404     = false
 enableEmoji     = true
 enableRobotsTXT = true
-defaultTheme = ""light"
+defaultTheme = "light"
 PygmentsStyle = "monokai"
 
 [author]
