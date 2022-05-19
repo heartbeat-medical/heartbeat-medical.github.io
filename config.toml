@@ -10,7 +10,7 @@ disableSitemap = false
 disable404     = false
 enableEmoji     = true
 enableRobotsTXT = true
-defaultTheme = "light"
+defaultTheme = ""light"
 PygmentsStyle = "monokai"
 
 [author]
@@ -47,6 +47,7 @@ PygmentsStyle = "monokai"
 [params.logo]
     logoText     = "$ cat heartbeat-medical"
     logoHomeLink = "/"
+    logoCursorColor = "#009b9f"
 
 [taxonomies]
     category = "blog"
@@ -62,6 +63,11 @@ PygmentsStyle = "monokai"
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+
+  [[menu.main]]
+    identifier = "careers"
+    name       = "Careers"
+    url        = "https://heartbeat-med.com/about/careers/"
 
 [languages]
   [languages.en]   
