@@ -1,4 +1,4 @@
-baseURL = "https://heartbeat-med.github.io/"
+baseURL = "https://heartbeat-medical.github.io/"
 languageCode = "en-us"
 title = "Heartbeat Medical Solutions Engineering Blog"
 theme = "hello-friend-ng"
