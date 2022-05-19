@@ -1,0 +1,68 @@
+baseURL = "https://heartbeat-med.github.io/"
+languageCode = "en-us"
+title = "Heartbeat Medical Solutions Engineering Blog"
+theme = "hello-friend-ng"
+
+paginate = 10
+
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+enableEmoji     = true
+enableRobotsTXT = true
+defaultTheme = "light"
+PygmentsStyle = "monokai"
+
+[author]
+  name = "development@heartbeat-med.de"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Heartbeat Medical Engineering Blog"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Heartbeat Medical Engineering Blog"
+  keywords = "hearbeat, blog"
+  images = [""]
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/heartbeat-medical/"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/company/heartbeat-medical-solutions"
+
+[params.logo]
+    logoText     = "$ cat heartbeat-medical"
+    logoHomeLink = "/"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+
+[languages]
+  [languages.en]   
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
