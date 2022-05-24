@@ -30,6 +30,7 @@ PygmentsStyle = "monokai"
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
+  EnableThemeToggle = true
 
   # Metadata mostly used in document's head
   description = "Heartbeat Medical Engineering Blog"
